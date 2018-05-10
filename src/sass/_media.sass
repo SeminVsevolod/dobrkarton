@@ -1,0 +1,178 @@
+@media screen and (max-width: 1024px)
+	.header
+		&-logo
+			margin-left: 30px
+
+@media screen and (max-width: 768px)
+	.hidden-middle
+		display: none
+	.header
+		&-logo
+			margin-left: 30px
+		&-contacts
+			&__phone
+				&s
+					flex-direction: column
+				font-size: 14px
+				margin-right: 0
+				&:first-child
+					border-right: none
+			&__button
+				display: inline-block
+				padding: 9px
+	.features
+		&-blocks
+		&-block
+			flex-basis: 49%
+			padding: 20px 10px
+			&__img
+				margin: 0 10px 0 0
+				img
+					max-width: none
+		.numbers
+			&-block
+				display: block
+				width: 100%
+				margin-bottom: 24px
+	.popup
+		min-width: 250px
+		&-title
+			font-size: 14px
+			line-height: 50px
+			min-height: 50px
+		&-form
+			padding: 20px 10px
+			&-header
+				font-size: 20px
+				font-weight: 400
+				line-height: 24px
+				text-align: center
+		 span
+		 	font-size: 16px
+		 	margin-top: 10px
+		 	display: block
+			&__label
+				display: block
+				font-size: 16px
+				margin-top: 23px
+				font-weight: 300
+				line-height: 16px
+				margin-bottom: 9px
+			&__input
+				width: 180px
+    height: 30px
+    margin-bottom: 17px
+    padding: 20px
+			&__btn
+				margin-left: 0
+	.production, .feedback, .products, .features
+		padding-top: 30px
+		padding-bottom: 30px
+	.production
+		&-slider_bottom
+			height: auto
+			margin-top: 15px
+		&-text
+			text-align: center
+			&__title
+				text-transform: uppercase
+				width: 100%
+				padding-left: 0
+				padding-right: 0
+			&__desc
+				text-align: justify
+@media screen and (min-width: 769px) and (max-width: 992px)
+	.header
+		&-contacts
+			&__phone
+				&s
+					flex-direction: column
+				font-size: 16px
+				margin-right: 0
+				&:first-child
+					border-right: none
+			&__button
+				display: inline-block
+				padding: 9px
+	.features
+		&-blocks
+		&-block
+			flex-basis: 31%
+			padding: 20px 10px
+			&__img
+				margin: 0 10px 0 0
+				img
+					max-width: none
+		.numbers
+			&-block
+				display: block
+				width: 100%
+				margin-bottom: 24px
+
+@media screen and (max-width: 576px)
+	.hidden-mobile
+		display: none
+	.section-title
+		&:after
+			display: none
+	.header
+		&-logo
+			background: $active-color url(../img/header-logo-mob.png) center no-repeat
+			width: 35px
+			height: 35px
+			border-radius: 4px
+			margin-left: 60px
+		&-contacts
+			&__phone
+				&s
+					flex-direction: column
+				font-size: 14px
+				margin-right: 0
+				&:first-child
+					border-right: none
+			&__button
+				display: inline-block
+				padding: 9px
+	.main
+		text-align: center
+		padding-top: 50px
+		&-text
+			&__title
+				font-size: 22px
+				color: $active-color
+			&__subtitle
+				font-size: 18px
+				margin-bottom: 40px
+			&__form
+				background-color: transparent
+				padding: 10px
+	.form
+		display: block
+		&-title
+			padding-right: 0
+			font-size: 15px
+			line-height: 1.4
+		&__input
+			display: block
+			margin-bottom: 13px
+	.features .numbers
+		&-block
+			display: block
+			width: 100%
+			margin-bottom: 24px
+	.features
+		&-blocks
+			flex-direction: column
+		&-block
+			padding: 20px 10px
+			&__img
+				margin: 0 10px 0 0
+				img
+					max-width: none
+	.button
+		padding: 10px 15px
+	.contacts
+		&-block
+			position: static
+	.popup
+		top: 40px
