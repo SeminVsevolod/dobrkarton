@@ -25,4 +25,4 @@ gulp
 
 ## Результат
 
-Просмотреть результат в браузере можно по ссылке [http://elegantcode.ru/dobrkarton.ru/src/index.html](http://elegantcode.ru/dobrkarton.ru/src/index.html).
+![dobrkarton](https://user-images.githubusercontent.com/35951053/85413086-05b78080-b573-11ea-8939-0a88e953aa00.png)
